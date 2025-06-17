@@ -124,10 +124,13 @@
 @media (max-width: 767.98px) {
     /* ================= hero ========================== */
     .hero-img__stick {
-        width: 130px;
-        height: 130px;
         top: -70px;
-        left: -64px;
+        left: -80px;
+    }
+    .hero-img__stick-2{
+        right: -35px;
+        width: 84px;
+        height: 65px;
     }
     /* ================= about ========================== */
     .about__inner {
