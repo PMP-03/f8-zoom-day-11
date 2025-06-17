@@ -7,13 +7,30 @@
 }
 /* xl */
 @media (max-width: 1399.98px) {
-    .hero__img-stick--2 {
-        width: 110px;
+    .hero-img__stick-2 {
+        right: -29px;
+        width: 100px;
+        height: 100px;
     }
 }
 /* lg */
-@media (min-width: 1199.98px) {
+@media (max-width: 1199.98px) {
     /* ========== hero ============= */
+    .hero-img__stick{
+        top: -70px;
+        left: -80px;
+        width: 160px;
+        height: 160px;
+    }
+    .hero-img__stick-2{
+        /* top: -60px;
+        left: -75px; */
+    }
+    /* ========== hero ============= */
+    .awards__thumb{
+        padding: 10px;
+    }
+
 }
 /* md */
 @media (max-width: 991.98px) {
@@ -85,14 +102,28 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    .hero__img {
+    .hero-img {
         margin-top: 150px;
+    }
+    .hero-img__thumb{
+        width: 100%;
+    }
+    .hero-img__desc{
+        width: 100%;
+    }
+    /* ========== hero ============= */
+    .awards__thumb{
+        padding: 0px;
+    }
+    /* ========== testimonial ============= */
+    .testimonial-header__text{
+        width: 100%;
     }
 }
 /* sm */
 @media (max-width: 767.98px) {
     /* ================= hero ========================== */
-    .hero__img-stick {
+    .hero-img__stick {
         width: 130px;
         height: 130px;
         top: -70px;
@@ -126,11 +157,6 @@
     /* ================= awards ========================== */
     .awards__inner {
         padding: 40px 0;
-    }
-    .awards__item {
-        display: inline-block;
-        width: 65%;
-        height: 100%;
     }
     /* ================= testimonial ========================== */
     .testimonial__inner {
